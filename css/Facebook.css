@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(252, 250, 248);
+}
+.connexion{
+background-color: rgb(246, 221, 188);
+block-size: 30px;
+}
+.cree{
+    text-underline-position: above;
+    background-color: rgb(83, 207, 83);
+    color: rgb(253, 253, 253);
+    block-size: 30px;
+}
+.connex{
+    cursor: pointer;
+    width: 329px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    block-size: 40px;
+    border: none;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 10px;
+    outline: none;
+}
+h4{
+    font-size: 30px;
+    color: rgb(252, 7, 7);
+}
+.inputs input[type="name"],input[type="password"]{
+    border-radius: 9px;
+    block-size: 10px;
+    width: 300px;
+    padding: 15px;
+    border: none;
+    background-color: #e4e2e2;
+    margin-bottom: 15px;
+}
+.titre1{
+    color: black;
+}
+.rejoignez{
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    background-color: blue;
+    block-size: 50px;
+}
+.demande input[type="name"],input[type="lastname"]{
+    border-radius: 5px;
+    block-size: 20px;
+    background-color: #e4e2e2;
+    border: none;
+}
+.suivant{
+    margin-top: 30px;
+    width: px;
+}
+

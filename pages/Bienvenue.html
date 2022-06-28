@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook - welcome</title>
+        <link rel="stylesheet" href="../css/bienvenue.css">
+    </head>
+    <body>
+                <!--------------Nav----------- -->      
+    <nav>
+                <!------------Nav Partie de gauche------------>
+        <div class="nav-left">
+            <img src="../images/face.png" class="logo">
+            <div class="input">
+                <img src="../images/search.png" class="search">
+                <input type="text" placeholder="Rechercher sur Facebook">
+            </div>
+        </div>
+                    <!---------Nav Partie du centre------------>
+        <div class="nav-center">
+            <div class="pous">
+                <div class="milieu active">
+                    <a href="../pages/face-home.html"> <img class="icone" src="../images/home.png"></a>
+                </div>
+                <div class="milieu">
+                    <a href="../pages/Face-Amis.html"><img class="icone" src="../images/groupe.png"></a>
+                </div>
+                <div class="milieu">
+                    <a href="../pages/Face-Groupes.html"><img class="icone" src="../images/groupe1.png"></a>
+                </div>
+            </div>
+        </div>
+                    <!-----------Nav partie de droite----------->
+        <div class="nav-right">
+            <div class="droite">
+                <input type="text" placeholder="Retrouver des...">
+            </div>
+            <img class="icons1" src="../images/menu.png" onclick="Menu()">
+            <img class="icons2" src="../images/messenger-black_100114.png" onclick="Message()">
+            <img class="icons3" src="../images/cloche.png" onclick="notif()">
+            <img class="icons4" src="../images/utul.png" onclick="menuUser()">
+        </div>
+                    <!-------le bouton user pour le menu------->
+        <div class="parametre">
+            <div class="pad">
+                <div class="user">
+                    <img src="../images/utul.png">
+                    <div>
+                        <p>Moses</p>
+                        <a href="#">Voir le profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user">
+                    <img src="../images/mess.png">
+                    <div>
+                        <p>Donner votre avis</p>
+                        <a href="#">Aidez-nous a ameliorer la version de facebook.</a>
+                    </div>
+                </div>
+                <hr>
+                <!--------lien user-------->
+                <div class="lien">
+                    <img src="../images/sett.png" class="lien_ic">
+                    <a href="#">Parametres et confidentialite <img src="../images/arrow.png" width="25px"></a>
+                </div>
+                <!--------lien2 user-------->
+                <div class="lien">
+                    <img src="../images/help.png" class="lien_ic">
+                    <a href="#">Aide et assistance <img src="../images/arrow.png" width="25px"></a>
+                </div>
+                <!--------lien3 user-------->
+                <div class="lien">
+                    <img src="../images/moon.png" class="lien_ic">
+                    <a href="#">Affichage et accessibilite <img src="../images/arrow.png" width="25px"></a>
+                </div>
+                <!--------lien3 user-------->
+                <div class="lien">
+                    <img src="../images/exit.png" class="lien_ic">
+                    <a href="#">Se deconnecter <img src="../images/arrow.png" width="25px"></a>
+                </div>
+                <div class="mot">
+                    <p>Confidentialité. Conditions générales. <br>
+                            Publicités. Choix publicitaires. Cookies. <br>
+                            Plus. Facebook C 2021. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+                <!--------Menu notification--------->
+        <div class="notifications">
+            <div class="srl">
+                <!------Notification 1------>
+                <div class="nbr">
+                    <div class="mot-p">
+                        <h3><strong>Notifications</strong></h3>
+                        <img src="../images/attend.png">
+                    </div>
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 2-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 3-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 4-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 5-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 6-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 7-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 8-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 9-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 10-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+                <!--------Notification 11-------->
+                <div class="nbr nbre">
+                    <div class="user-ic">
+                        <img src="../images/jo.jpg" class="ic">
+                        <a href="#">Moses a publie une nouvelle photo de story. <img src="../images/icons8_sphere_48px.png" class="i"></a>
+                    </div>
+                    <div class="mini-ic">
+                        <img src="../images/confirme.png"> <p>il y a 5 jours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-------Menu Messenger------->
+        <div class="messenger">
+            <!-------personne 1-------->
+            <div class="mess">
+                <div class="mess-ic">
+                    <h3><strong>Messenger</strong></h3>
+                    <img src="../images/attend.png" class="attend">
+                    <img src="../images/full.png" class="full">
+                    <img src="../images/vcall.png" class="vcall">
+                    <img src="../images/edit.png" class="edite">
+                </div>
+                <div class="inp">
+                    <img src="../images/search.png" alt="">
+                    <input type="text" placeholder="Rechercher dans Messenger">
+                </div>
+                <div class="mess-user">
+                    <img src="../images/jo.jpg">
+                    <h4>Moses kap's</h4>
+                </div>
+                <p class="mess-txt">Bienvenue a vous deux sur Mess..1sem</p>
+            </div>
+            <hr>
+            <!-------personne 2-------->
+            <div class="mess">
+                <div class="mess-user">
+                    <img src="../images/jo.jpg">
+                    <h4>Moses kap's</h4>
+                </div>
+                <p class="mess-txt">Bienvenue a vous deux sur Mess..1sem</p>
+            </div>
+            <hr>
+            <!-------personne 2-------->
+            <div class="mess">
+                <div class="mess-user">
+                    <img src="../images/jo.jpg">
+                    <h4>Moses kap's</h4>
+                </div>
+                <p class="mess-txt">Bienvenue a vous deux sur Mess..1sem</p>
+            </div>
+            <hr>
+            <a href="#"><p class="tout">Tout voir dans messenger</p></a>
+        </div>
+        <!--------Menu de Menu------->
+        <div class="menu">
+            <h3 class="ti">Menu</h3>
+            <div class="gch">
+                <div class="inp">
+                    <img src="../images/search.png">
+                    <input type="text" placeholder="Rechercher dans le menu">
+                </div>
+                <div class="social">
+                    <h4>social</h4>
+                </div>
+                <div class="ev">
+                    <img src="../images/calender.png">
+                    <h3>Evenement</h3> <br>
+                </div>
+                <p class="trouve">Trouvez des activites et des evenements
+                    auquels vous pouvez participer en ligne
+                    ou ne presonne pres de chez vous,ou organisez-en.
+                </p>
+                <div class="ev">
+                    <img src="../images/groupe.png">
+                    <h3>Retouvez des amis</h3> <br>  
+                </div>
+                <p class="trouve">Trouvez des amis ou des personnes que vous connaissez.</p>
+                <div class="ev">
+                    <img src="../images/groupe1.png">
+                    <h3>Groupes</h3>
+                </div>
+                <p class="trouve">Entrez en contacte avec des personnes qui partagent
+                    vos centres d'interet
+                </p>
+                <div class="ev">
+                    <img src="../images/actual.png">
+                    <h3>Fil d'actualite</h3> <br>
+                </div>
+                <p class="trouve">consultez des actualites pertinentes mise en ligne 
+                    par des personnes et des pages que vous suivez
+                </p>
+                <div class="ev">
+                    <img src="../images/flag.png">
+                    <h3>Pages</h3> <br>
+                </div>
+                <p class="trouve">Decouverz des entrprises et entrez en contact avec elles sur
+                    facebook</p>
+                <hr class="hr">
+            </div>
+            <!--------Menu partie de droite------->
+            <div class="droite">
+                <div class="cree">
+                    <h3>Creer</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/edit.png">
+                    <h3>Publication</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/book.png">
+                    <h3>Story</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/vcall.png">
+                    <h3>Salon</h3>
+                </div>
+                <hr>
+                <div class="pub">
+                    <img src="../images/flagg.png">
+                    <h3>Page</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/mega.png">
+                    <h3>Publicite</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/groupe1.png">
+                    <h3>Groupe</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/event.png">
+                    <h3>Evenement</h3>
+                </div>
+                <div class="pub">
+                    <img src="../images/market.png">
+                    <h3>Petite anonce MaketPlace</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+                    <!--------------Debut du contenu---------------->
+    <div class="container">
+                        <!----------Contenu de gauche------------>
+        <div class="left-sidebar">
+            <div class="side">
+                <a href="Face-sous-compte.html"><img src="../images/utul.png"><div class="text"><h5>Kapend Mbav</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-Amis.html"><img src="../images/outline_people_black_24dp.png"><div class="text"><h5>Retrouver des amis</h5></div></a>
+            </div>
+            <div class="side">        
+                <a href="Bienvenue.html"><img src="../images/face.png"><div class="text"><h5>Bienvenue</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-Groupes.html"><img src="../images/gr.png"><div class="text"><h5>Groupes</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-sous-watch.html"><img src="../images/video.png"><div class="text"><h5>Watch</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-sous-Evenement.html"><img src="../images/calender.png"><div class="text"><h5>Evenement</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-sous-souvenir.html"><img src="../images/souvenir.png"><div class="text"><h5>Souvenirs</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="Face-sous-enregistrement.html"><img src="../images/mark.png"> <div class="text"><h5>Enregistrements</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="../images/flag.png"><div class="text"><h5>Pages</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="../images/emploies.png"><div class="text"><h5>Offres d'emploies</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="../images/messenger_message_chat_conversation_facebook_icon_189221.png"><div class="text"><h5>Messenger</h5></div></a>
+            </div>
+            <div class="side">
+                <a href="#"><img src="../images/voir.png"><div class="text"><h5>Voir plus</h5></div></a>
+            </div>
+            <div class="foot">
+                <p>Confidentialité. Conditions générales. <br>
+                    Publicités. Choix publicitaires. Cookies. <br>
+                    Plus. Facebook C 2021. <br> <br>
+                    <strong>Par KAPEND MBAV Moise</strong>
+                    </p>
+            </div>
+        </div>
+                        <!----------Contenu du milieu------------>
+        <div class="main-content">
+            <div class="bien">
+                <h3>Bienvenue sur facebook, Kapend</h3>
+            </div>
+            <form class="premier" >
+                <div class="pre">
+                    <h4>Importer une photo de <br> profil</h4>
+                    <p>Ajouter une photo pour que vos <br>
+                        amis ouissent facillement vous <br>
+                        identifier</p>
+                    <div class="but">
+                        <button class="butt">Ajouter une photo</button>
+                    </div>
+                </div>
+                <div class="us">
+                    <img class="uss" src="../images/userd.png">
+                </div> 
+            </form>
+            <form class="deux">
+                <h4>Ajouter des personnes que vous connaissez</h4> <br>
+                <!--------personne 1-------->
+                <div class="pers1">
+                    <img src="../images/lieve.jpg">
+                </div>
+                <div class="in1">
+                    <p>Lieve Mbelu</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 2-------->
+                 <div class="pers1">
+                    <img src="../images/bil.jpg">
+                </div>
+                <div class="in1">
+                    <p>Bilendo Chrino</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 3-------->
+                 <div class="pers1">
+                    <img src="../images/jo.jpg">
+                </div>
+                <div class="in1">
+                    <p>Kapend Mbav</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 4-------->
+                 <div class="pers1">
+                    <img src="../images/lieve2.jpg">
+                </div>
+                <div class="in1">
+                    <p>Believe Mbelu</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 5-------->
+                 <div class="pers1">
+                    <img src="../images/zormi.jpg">
+                </div>
+                <div class="in1">
+                    <p>Isca foloo</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 6-------->
+                 <div class="pers1">
+                    <img src="../images/ame.png">
+                </div>
+                <div class="in1">
+                    <p>Le connaiseur</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+                 <!--------personne 7-------->
+                 <div class="pers1">
+                    <img src="../images/mafia.jpg">
+                </div>
+                <div class="in1">
+                    <p>Abraham</p>
+                    <button class="aj"><strong>Ajouter</strong></button>
+                    <button class="supp"><strong> Supprimer</strong></button>
+                </div>
+                <div class="bar">
+                    <p></p>
+                </div>
+            </form>
+            <form class="trois">
+                <div class="der">
+                    <h3>-------------------- Fin de la liste --------------------</h3>
+                    <p>Ajouter des amis pour voir d'avantage de publications dans <br>
+                    votre fil d'actualite.</p>
+                    <button class="ami"><a  href="../pages/Face-Amis.html" style="color: white;"> Retrouver des amis</a></button>
+                </div>
+            </form>
+        </div>
+                        <!----------Contenu de droite------------>
+        <div class="right-sidebar">
+            <div class="invita">
+            <div class="titre">
+                <h4>Invitation</h4>
+                <img src="../images/attend.png">
+            </div>
+            <div class="inv">
+                <img src="../images/tabitha.jpg">
+                <h3>Tabitha</h3>
+                <p>1 sem.</p>
+            </div>
+            <div class="bt">
+                <button class="conf">Confirmer</button>
+                <button class="supp">Supprimer</button>
+            </div>
+        </div>
+        <pre>
+            <div class="suite">
+                <div class="cont">
+                    <h3>Contacts</h3>
+                    <img src="../images/vcall.png">
+                    <img src="../images/search.png">
+                    <img src="../images/attend.png">
+                </div>
+                <div class="lui">
+                    <img src="../images/utul.png">
+                    <h4>Falonne</h4>
+                </div>
+                <div class="lui">
+                    <img src="../images/utul.png">
+                    <h4>Andre </h4>
+                </div>
+            </div>
+                <div class="convers">
+                    <div class="conv">
+                        <h3>Conversations des groupes</h3>
+                    </div>
+                    <div class="plus">
+                        <img src="../images/add.png">
+                        <p>Creer un nouveau groupe</p>
+                    </div>
+                </div>
+        </div>
+         <!----pour le message----->
+         <div class="msgs">
+            <div class="inpt">
+                <h4>Nouveau message</h4>
+                <img src="../images/utul.png">
+            </div>
+            <div class="aqui">
+                <p>A:</p>
+                <input type="">
+            </div>
+            <div class="sug">
+                <h3>Suggestion</h3>
+            </div>
+        </div>
+        <div class="app">
+            <div class="ici" onclick = "msg()">
+                <img src="../images/edit.png">
+            </div>
+        </div>
+    </div>
+        <!--------Debut de JavaScript-------->
+        <script src="../JavaScript/bienvenue.js"></script>
+</body>
+</html>

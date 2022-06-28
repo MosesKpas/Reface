@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 226, 226);
+}
+nav{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(134, 134, 134)
+}
+.t-g h1{
+    position: relative;
+    padding: 0 12px;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #2e81f4;
+}
+.mettre{
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mettre p{
+    margin-left: 95px;
+    width: 230px;
+}
+.mettre .connect{
+    position: relative;
+    left: 55px;
+}
+.pass{
+    position: relative;
+    left: 50px;
+}
+.adresse{
+    position: relative;
+    left: 45px;
+}
+.connect , .pass, .adresse{
+    height: 35px;
+    font-size: 15px;
+}
+.pass, .adresse{
+    padding-left: 5px;
+}
+.connect{
+    block-size: 35px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+}
+.pass,.adresse{
+    border-width: 1px;
+    border-radius: 5px;
+    outline: none;
+    border-color: rgb(206, 205, 204);
+    background-color: rgb(255, 255, 255);
+}
+form{
+    box-shadow: 3px 3px 3px rgb(134, 134, 134);
+    border-radius: 5px;
+    padding: auto ;
+    position: relative;
+    left: 460px;
+    margin-top: 130px;
+    padding: 10px 10px;
+    background-color: #fff;
+    width: 450px;
+    height: 220px; 
+}
+.tit{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.tit1{
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.nume input[type="num"]{
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    block-size: 38px;
+    width: 410px;
+}
+.but{
+    margin-top: 15px;
+    margin-left: 212px;
+}
+.annuler ,.recherche{
+    height: 34px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.annuler{
+    width: 100px;
+    background-color: rgb(160, 159, 159);
+}
+.recherche{
+    width: 120px;
+    background-color: rgb(0, 110, 255);
+}
+hr{
+    margin-top: 10px;
+    border: 0;
+    height: 1px;
+    width: 100%x;
+    background: #9a9a9a;
+}
+
+footer{
+    margin-top: 90px;
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+}
+.bla{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    width: 750px;
+}
+.bla p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #9a9a9a;
+}

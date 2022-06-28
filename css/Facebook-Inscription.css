@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(237, 241, 246);
+    background-image: url(imgs/connex.png);
+    background-repeat: no-repeat;
+}
+form{
+    box-shadow: 8px 8px 7px rgb(187, 187, 187);
+    border-radius: 5px;
+    padding: auto px;
+    position: relative;
+    left: 500px;
+    margin-top: 40px;
+    padding: 10px 10px;
+  background-color: #fff;
+  width: 390px;
+  border-radius: 20px;
+}
+h2{
+    position: relative;
+    top: -25px;
+    font-size: 30px;
+}
+h3{
+    position:relative;
+    top: -80px;
+    left: 360px;
+    cursor: pointer;
+}
+.go{
+    position: relative;
+    top: -84px;
+    font-size: 14px;
+    color: rgb(7, 7, 7);
+}
+form .inserer input[type="name"],input[type="holdname"]{
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: -76px;
+    block-size: 35px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+
+    background-color: rgb(224, 219, 220);
+}
+form .info{
+    position: relative;
+    top: -43px;
+}
+div .email{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    position:relative;
+    top: -18px;
+    block-size: 35px;
+    border-radius: 4px;
+    border: none;
+    width: 390px;
+    background-color: rgb(218, 218, 216);
+}
+div .pass{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    position:relative;
+    top: -7px;
+    block-size: 35px;
+    border-radius: 4px;
+    border: none;
+    width: 390px;
+    background-color: rgb(218, 218, 216);
+}
+form .dater{
+    position: relative;
+    top: -47px;
+    border-radius: 5px;
+}
+form .jour{
+    background-color: white;
+    block-size: 40px;
+    width:120px;
+    cursor: pointer;
+}
+form .mois{
+    background-color: white;
+    block-size:40px;
+    width: 120px;
+    position:relative;
+    left: 10px;
+    cursor: pointer;
+}
+form .annee{
+    background-color: white;
+    block-size: 40px;
+    width: 120px;
+    position:relative;
+    left: 20px;
+    cursor: pointer;
+}
+form .genre{
+    position:relative;
+    top: -42px;
+}
+form .table{
+    border: none;
+    border: rgb(0, 0, 0);
+    outline: none;
+    position:relative;
+    top: -40px;
+}
+form .femme{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width:115px;
+    border-radius: 5px;
+}
+form .homme{
+    background-color: white; 
+    block-size:40px;
+    width: 115px;
+    border-radius: 5px;
+    position:relative;
+    left: 10px;
+}
+form .perso{
+    background-color: white;
+    block-size: 40px;
+    width: 115px;
+    border-radius: 5px;
+    position:relative;
+    left: 20px;
+}
+.mot{
+    position:relative;
+    top: -40px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+form .sinscrire button[class="is"]{
+position:relative;
+top: -43px;
+block-size: 37px;
+width: 150px;
+font-size: 17px;
+color: white;
+background-color:rgb(35, 170, 53);
+border: none;
+border-radius: 5px;
+}
+

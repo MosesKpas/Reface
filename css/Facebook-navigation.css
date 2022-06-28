@@ -1,0 +1,215 @@
+/*Toute la page*/
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins' sans-serif;
+}
+
+body{
+    background-color:rgb(233, 233, 233);
+}
+
+.header_left img{
+    height: 40px;
+}
+
+.user_avatar{
+    border-radius: 50px;
+    width: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    position:sticky;
+    box-shadow: 0px 5px 8px -9px rgb(0, 0, 0,0.75) ;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left:10px;
+    border-radius: 999px;
+}
+
+.header .search{
+    height: 20px;
+}
+
+.header_input input{
+    border:none;
+    background-color:transparent;
+    outline-width:0;
+}
+
+.header_middle{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+
+.header_option .icone{
+    height: 35px;
+    font-size: xx-large;
+    color:rgb(246, 23, 23);
+}
+
+/*La ligne qui suit permet de mettre une couleur dans les icones du milieu*/
+
+.header_option:hover .icone{
+    color: #2e81f4;
+}
+
+.header_option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header_option.active{
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header_option:hover {
+    background-color: #eff2f5;
+    border-radius:10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header_info{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_rigth{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_rigth .icons1, .icons2 , .icons3, .icons4{
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 5px;
+    margin-left:3px;
+    border-radius: 999px;
+}
+
+.header_rigth .icons1{
+    height: 25px;
+}
+
+.header_rigth .icons2{
+    height:25px;
+}
+
+.header_rigth .icons4{
+    margin:0px;
+}
+
+.header_rigth input{
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left:10px;
+    border-radius: 999px;
+    border:none;
+    outline-width:0;
+    height:20px;
+    width: 90px;
+}
+
+/*partie Droite */
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    width: 220px;
+}
+
+.sidebarRow h4{
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+/*la ligne qui suit permet de mettre une couleur dans les icones */
+
+.sidebarRow .ics1,.ics2,.ics3,.ics4,.ics5,.ics6,.ics7,.ics8,.ics9,.ics10,.ics11,.ics12{
+    font-size: xx-large;
+    color:#2e81f4;
+}
+
+.ics2,.ics3,.ics4,.ics5,.ics6,.ics7,.ics8,.ics9,.ics10,.ics11,.ics12{
+    height: 28px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 1%;
+}
+.sidebarGauche{
+    flex-basis: 25%;
+    position:sticky;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .sidebar{
+        display: none;
+    }
+    .header_input input{
+        display: none;
+    }
+    .header_middle{
+        display: none;
+    }
+}
